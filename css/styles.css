@@ -24,6 +24,9 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
 
 .visually-hidden {
     white-space: nowrap;
