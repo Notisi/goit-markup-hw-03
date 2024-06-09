@@ -82,7 +82,8 @@ margin-right: 76px;
 }
 
 .header-menu-link {
-    padding: 24px;
+padding-top: 24px;
+padding-bottom: 24px;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
@@ -127,6 +128,8 @@ color: #2e2f42;
 
 /* ------------------HERO------------------------- */
 .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
 background-color: #2e2f42;
 }
 
@@ -136,6 +139,7 @@ background-color: #2e2f42;
 }
 
 .hero-title {
+    max-width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 107%;
@@ -145,6 +149,9 @@ color: #fff;
 }
 
 .hero-btn {
+    display: block;
+    border: none;
+    min-width: 169px;
 font-weight: 500px;
 font-size: 16px;
 line-height: 150%;
