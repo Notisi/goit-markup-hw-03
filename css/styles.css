@@ -45,9 +45,19 @@ img {
 /* ------------------HEADER------------------------- */
 
 .header {
+    border-bottom:1px, solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
 
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.div-header {
+    display: flex;
 }
 
 .header-logo {
@@ -58,13 +68,21 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
 }
 
 .studio-span {
     color: #2e2f42;
 }
 
+.header-menu {
+    display: flex;
+    gap: 40px;
+
+}
+
 .header-menu-link {
+    padding: 24px;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
@@ -88,7 +106,9 @@ color: #2e2f42;
 }
 
 .adress {
+    display: flex;
     font-style: normal;
+    gap: 40px;
 }
 
 .contacts:hover {
