@@ -75,7 +75,7 @@ margin-right: 76px;
     color: #2e2f42;
 }
 
-.header-menu {
+.menu-header {
     display: flex;
     gap: 40px;
 
@@ -106,8 +106,11 @@ color: #2e2f42;
 }
 
 .adress {
-    display: flex;
     font-style: normal;
+}
+
+.adress-link {
+    display: flex;
     gap: 40px;
 }
 
